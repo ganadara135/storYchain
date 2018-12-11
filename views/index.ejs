@@ -2,42 +2,140 @@
   <head>
     <title> <%= title %> </title>
     <meta http-equiv="refresh" content="60; url=http://storichain.io" />
-   <link rel="stylesheet" type="text/css" href="css/story_style.css">
+   <!--  <link rel="stylesheet" type="text/css" href="css/story_style.css"> -->
+   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
    <style>
      #align_con{
        position: relative;
-       top:40%;
-       left:40%;
+       top:20%;
+       left:25%;
      }
+
+    .color-storichain{
+        color: #FF8298;
+    }
+
+    .bannerlogo{
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .bannerimg{
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .text-center{
+        text-align: center;
+    }
+
+    a{
+        text-decoration: none;
+        -webkit-transition-duration: 500ms;
+        -o-transition-duration: 500ms;
+        transition-duration: 500ms;
+        color: black;
+    }
+
+    a:hover,
+    a:focus,
+    a:active {
+        text-decoration: none;
+        -webkit-transition-duration: 500ms;
+        -o-transition-duration: 500ms;
+        transition-duration: 500ms;
+        color: #eb2d2d;
+    }
+
+    .logoimage_background{
+        background-color:  #37404A;
+        width: 60%;
+        height: 5%;
+        border-radius: 30% / 45%;
+    }
+
+    .enter_rectangle_oval:hover{
+        background-color:  rgb(131, 140, 153);
+        width: 20%;
+        height: 20%;
+        border-radius: 20% / 50%;
+        text-align: center;
+    }
+
+    .copyright_rectangle{
+        background-color:  rgb(131, 140, 153);
+        width: 10%;
+        height: 40%;
+        text-align: center;
+    }
+
+    .copyright_white{
+      background-color:  rgb(255,255,255);
+    }
+
+    .copyright-text > p {
+        margin-bottom: 0;
+        font-size: 22px;
+    }
+
+    .text_align_storYchain{
+        text-align: center;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-weight: 400;
+        color: #000;
+        line-height: 1.2;
+    }
+
+    .custom-btn.custom-btn--style-2 {
+      border: none;
+      background: #ff977E;
+      /* height: 45px; */
+      min-width: 155px;
+      display: inline-block;
+      text-align: center;
+      line-height: 45px;
+      color: #ffffff !important;
+      font-weight: 500;
+      margin-top: 30px;
+      border-radius: 23px 23px 23px 23px;
+      padding: 2px 20px;
+      font-size: 20px;
+    }
+
+    .custom-btn.custom-btn--style-2:hover {
+      background: rgb(223, 52, 61);
+    }
+
+    .crsrPointr:hover{
+      cursor: pointer;
+    }
+
+    .btn:focus,
+    .btn:hover {
+        color: #fff
+    }
    </style>
   </head>
-  <!--
-  <body>
-
-    <img src="storYchain_test.png" style="width: 1024px; height: 1024px;" usemap="#imagemap">
-    <map name="imagemap">
-      <area shape="rect" coords="20,20,900,900" href="http://storichain.io" alt="usemap">
-    </map>
-    <br>
-    Hey, this is index page
-    redirecting in 60 seconds automatically.
-
-   </body>
-   -->
    <!-- <body class=text_align_storYchain>  -->
      <body id="align_con">
         
-        <table width="65%">
+        <table width="50%">
           <tr><td>
-      
-        <img src="LOGO_for_BridgePage.png">
-      
-    </td></tr>
-      
-    
-        
+            <img src="LOGO_for_BridgePage.png">
+          </td></tr>
             <tr><td><h2>    Are you looking for Storichain? </h2></td></tr>
-            <tr><td><h1>The first storytelling's value chain network</h1></td></tr>
+            <tr><td><h1>The first storytellers' value chain network</h1></td></tr>
             <tr><td><span style="color: #ffffff;">i</span></td></tr>
             <tr><td><span style="color: #ffffff;">i</span></td></tr>
             <h3><tr><td>We use storychain with "<span style="color: #ff977e;">i</span>" instead of "y"</td></tr>
@@ -51,7 +149,7 @@
             <!-- <tr><td><h1 class="enter_rectangle_oval">Enter</h1></td></tr>
             <tr><td><span id="enter_rectangle_oval">Enter</span></td></tr> -->
             <tr><td>
-              <a href="http://storichain.io"><button type="button" class="btn btn-default btn-wrp animated fadeIn topmarbtn custom-btn custom-btn--medium custom-btn--style-2 crsrPointr"  aria-haspopup="true" aria-expanded="false">
+              <a href="http://storichain.io"><button type="button" class="btn custom-btn  custom-btn--style-2 crsrPointr"  aria-haspopup="true" aria-expanded="false">
                 Enter
             </button></a>
           </td></tr>
@@ -63,12 +161,13 @@
             <tr><td><span style="color: #ffffff;">i</span></td></tr>
             <tr><td><span style="color: #ffffff;">i</span></td></tr>
             <tr><td><span style="color: #ffffff;">i</span></td></tr>
+            <!----<tr><td><span style="color: #ffffff;">i</span></td></tr>
             <tr><td><span style="color: #ffffff;">i</span></td></tr>
             <tr><td><span style="color: #ffffff;">i</span></td></tr>
             <tr><td><span style="color: #ffffff;">i</span></td></tr>
-            <tr><td><span style="color: #ffffff;">i</span></td></tr>
-            <!----tr><td><span style="color: #ffffff;">iiiiiïīiiiiiiii        iiiiii iiii   iiiiiiiiiiiiiiiiiiiiiiii</span>All right reserved to Storichain</td></tr>  -->
+            tr><td><span style="color: #ffffff;">iiiiiïīiiiiiiii        iiiiii iiii   iiiiiiiiiiiiiiiiiiiiiiii</span>All right reserved to Storichain</td></tr>  -->
             <tr><td class="copyright_rectangle">All right reserved to Storichain</td></tr>
+            
       </table>
    </body>
 </html>
